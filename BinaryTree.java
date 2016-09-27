@@ -9,12 +9,12 @@ public class BinaryTree<E>
     public BinaryTree(E value){}
     //post: returns a tree referencing value and two empty subtrees
 
-    public BinaryTree(E value, BinaryTree<E> left, BinaryTree<E> right)
+    public BinaryTree(E value, BinaryTree<E> left, BinaryTree<E> right){}
     //post: returns a tree referencing value and two subtrees
 
     public BinaryTree<E> left(){
         return null;
-    }
+    }{}
     //post: returns reference to (possibly empty) left subtrees
 
     public BinaryTree<E> parent(){
